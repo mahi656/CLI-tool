@@ -33,32 +33,32 @@ The CLI tool supports 10 subcommands divided into 3 categories.
 
 ## Example Usage
 
-You run these commands by directly executing `cli.ts` in your node environment:
+You can run these commands easily by using `npm start --` followed by your command:
 
 ```bash
 # General help
-node cli.ts --help
+npm start -- help
 
 # Greeting someone
-node cli.ts greet Hariksh
+npm start -- greet Hariksh
 # Output: Hello, Hariksh!
 
 # Adding numbers
-node cli.ts add 15 30
+npm start -- add 15 30
 # Output: 45
 
 # Fetching a Joke (API)
-node cli.ts joke
+npm start -- joke
 # Output:
 # What do you call a fake noodle?
 # An impasta.
 
 # GitHub Profile checking (API)
-node cli.ts github octocat
+npm start -- github octocat
 # Output:
 # User: octocat
 # Followers: 22000
 
 # Weather output (API)
-node cli.ts weather London
+npm start -- weather London
 ```
