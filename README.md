@@ -34,31 +34,3 @@ The CLI tool supports 10 subcommands divided into 3 categories.
 ## Example Usage
 
 You can run these commands easily by using `npm start --` followed by your command:
-
-```bash
-# General help
-npm start -- help
-
-# Greeting someone
-npm start -- greet Hariksh
-# Output: Hello, Hariksh!
-
-# Adding numbers
-npm start -- add 15 30
-# Output: 45
-
-# Fetching a Joke (API)
-npm start -- joke
-# Output:
-# What do you call a fake noodle?
-# An impasta.
-
-# GitHub Profile checking (API)
-npm start -- github octocat
-# Output:
-# User: octocat
-# Followers: 22000
-
-# Weather output (API)
-npm start -- weather London
-```
